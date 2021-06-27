@@ -1,0 +1,128 @@
+
+/*common start*/
+body{
+     margin: 0;
+     padding: 0;
+}
+
+/*common end*/
+
+header{
+     padding: 0 0;
+     margin: 1px solid;    
+}
+
+/*header start*/
+.container {
+     overflow: hidden;
+     width: 90%;
+     padding: 38px;
+
+}
+
+.logo {
+     float: left;
+     width: 90%;
+     margin-top: 3px;
+}
+
+.logo img{
+     width: auto;
+}
+.menu {
+     float: right;
+     width:50%;
+     margin:-60px;
+    
+}
+.menu ul{
+     float: right;
+
+}
+.menu ul li{
+     list-style: none;
+     float: left;
+
+}
+.menu ul li a{
+     text-decoration: none;
+     margin:0 15px ;
+     display:inline-block;
+     font-size: 18px;
+     color: 0F2656;
+     text-transform: capitalize;
+
+}
+
+/*header end*/
+/*slider start*/
+.slider {text-align: center;
+    width: 50%;
+    margin: 30px auto;
+    font-family: Arial, Helvetica,sans-serif;
+    color:#0F2656;;
+}
+
+.blue {
+}
+
+.slider2 {    width: 90%;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.slider2_1 {width: 48%;
+    text-align: end;
+    padding: 10px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider2_2 {width: 48%;
+    text-align: start;
+    padding: 10px;
+    float: left;
+}
+
+.wrapper_post {width: 90%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.post_1 {    width: 290px;
+    height: 340px;
+    padding: 30px;
+    background-color: darkre;
+    float: left;
+    margin: 27px;
+}
+
+.post_1post_2 {width: 290px;
+    height: 340px;
+    padding: 30px;
+    background-color: #FEEBED;
+    float: left;
+    margin: 27px;
+}
+
+.post_1post_3 {width: 290px;
+    height: 340px;
+    padding: 30px;
+    background-color: #FEEBED;
+    float: left;
+    margin: 27px;
+}
+
+.footer {   background-color: #008AFF;
+    height: 30px;
+    padding: 27px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: white;
+    font-family: arial;
+    margin-top: 20px;
+}
+}
+/*slider end*/
+     
+
